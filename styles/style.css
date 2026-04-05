@@ -196,8 +196,8 @@
 hr {
   /* border: none; */
   width: 100vw;
-  height: 0.3rem;
-  color: #e8e8e8;
+  height: 2px;
+  color: #eee;
 }
 
 .section-footer {
@@ -283,12 +283,5 @@ hr {
 
 /* #endregion section-footer */
 
-/* 
 
-font-size (px)
-10 / 11 / 12 / 13 / 14 / 15 / 16 / 20 / 24 / 32 / 36 / 40 / 48 / 64 / 74 / 86 / 96 / 128
 
-spacing (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
-
-*/
