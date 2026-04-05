@@ -1,7 +1,7 @@
 .landing-page {
   max-width: 100vw;
   height: 100vh;
-  background-image: url("/img/hero-img.jpg");
+  background-image: url("img/hero-img.jpg");
   background-size: cover; /* makes image cover entire area */
   background-position: center; /* centers the image */
   background-repeat: no-repeat; /* prevents tiling */
