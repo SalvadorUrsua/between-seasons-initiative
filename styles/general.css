@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  
+
   scroll-behavior: smooth;
 }
 
@@ -65,7 +65,8 @@ body {
   font-weight: 700;
   line-height: 100%;
   letter-spacing: -1%;
-  margin-top: 25%;
+  /* margin-top: 25%; */
+  margin-top: 0;
   margin-bottom: 6rem;
 }
 
@@ -89,3 +90,21 @@ body {
   margin-bottom: 1.8rem;
 }
 
+.subtitle {
+  text-transform: uppercase;
+  font-size: 2rem !important;
+  letter-spacing: -1% !important;
+  color: #f68b00;
+
+  margin-top: 25%;
+  margin-bottom: 0 !important;
+}
+/* 
+
+font-size (px)
+10 / 11 / 12 / 13 / 14 / 15 / 16 / 20 / 24 / 32 / 36 / 40 / 48 / 64 / 74 / 86 / 96 / 128
+
+spacing (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+*/
