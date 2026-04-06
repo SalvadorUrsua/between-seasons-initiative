@@ -310,11 +310,6 @@
     grid-column: 2;
   }
 
-  .contact-icon {
-    width: 5rem;
-    height: 5rem;
-  }
-
   .copyright {
     grid-row: 3;
     grid-column: span 2;
@@ -349,3 +344,27 @@
   }
 }
 /* #endregion < 960px  */
+
+/* #region < 1364px = 1365 / 16 = 85.25 = 85em */
+@media (max-width: 85em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+
+  /* focus */
+
+  /* origin */
+
+  /* footer */
+  .contact-icons {
+    align-items: end;
+  }
+
+  .contact-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+/* #endregion < 1364px  */
