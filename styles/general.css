@@ -32,6 +32,21 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.grid-cols-6 {
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-cols-8 {
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
 /* #endregion helper-classes */
 
 /* #region headings */

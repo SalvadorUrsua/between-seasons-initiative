@@ -195,6 +195,8 @@
 
 .focus-img {
   display: inline-block;
+  width: 100%;
+
   margin-top: 25%;
 }
 /* #endregion section-focus */
@@ -205,11 +207,20 @@
 }
 
 .origin {
-  column-gap: 6.8rem;
+  column-gap: 4.8rem;
+}
+
+.origin-text-box {
+  grid-column: span 4;
+}
+
+.origin-img-box {
+  grid-column: span 4;
 }
 
 .beach-img {
   display: block;
+  width: 100%;
 }
 
 /* #endregion section-origin */

@@ -1,0 +1,177 @@
+/* #region < 1364px = 1365 / 16 = 85.25 = 85em */
+@media (max-width: 85em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+
+  /* focus */
+
+  /* origin */
+
+  /* footer */
+  .section-footer {
+    padding: 0 3.2rem;
+  }
+
+  .footer {
+    gap: 0;
+  }
+
+  .column-label {
+    font-size: 1.8rem;
+  }
+
+  .journey-text {
+    font-size: 1.4rem;
+  }
+
+  .contact-list li {
+    font-size: 1.4rem;
+  }
+
+  .copyright {
+    font-size: 1.4rem;
+  }
+
+  .contact-icon {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+/* #endregion < 1364px  */
+
+/* #region < 1164px = 1164 / 16 = 72.75 = 73em */
+@media (max-width: 73em) {
+  /* header */
+  .header-company-name {
+    font-size: 1.6rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+
+  .heading-primary {
+    font-size: 7.4rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+
+  .heading-primary-description {
+    font-size: 1.6rem;
+  }
+  /* hero */
+
+  /* purpose */
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+
+    margin-bottom: 4.8rem;
+  }
+
+  .heading-secondary-description {
+    font-size: 1.6rem !important;
+
+    margin-bottom: 2.4rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem !important;
+  }
+
+  .column-label {
+    margin-bottom: 2.4rem;
+  }
+
+  .journey-text {
+    line-height: 160%;
+  }
+
+  .contact-list li {
+    margin-bottom: 1rem !important;
+  }
+
+  .copyright {
+    line-height: 160%;
+  }
+
+  .contact-icon {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .footer {
+    row-gap: 2.4rem;
+  }
+
+  /* focus */
+
+  /* origin */
+
+  /* footer */
+}
+/* #endregion < 1364px  */
+
+/* #region < 960px = 960 / 16 = 85.25 = 60em */
+@media (max-width: 60em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+
+  /* focus */
+  .focus {
+    column-gap: 3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .focus-img-box {
+    align-self: center;
+  }
+
+  .focus-img {
+    margin: 0;
+  }
+
+  .focus-text-box {
+    align-self: center;
+  }
+
+  .focus-text-box p:nth-child(8) {
+    margin: 0 !important;
+  }
+
+  .focus .subtitle {
+    margin: 0;
+  }
+
+  /* origin */
+  .origin {
+    column-gap: 4.8rem;
+  }
+
+  /* footer */
+  .footer {
+    column-gap: 1.2rem;
+  }
+
+  .journey-text {
+    color: transparent;
+  }
+
+  .journey-text::before {
+    content: "It is a humble beginning, but we believe that meaningful change often starts with small seeds.";
+    color: #000;
+  }
+}
+/* #endregion < 1364px  */
