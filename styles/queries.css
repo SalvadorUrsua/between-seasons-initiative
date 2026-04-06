@@ -310,6 +310,11 @@
     grid-column: 2;
   }
 
+  .contact-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+
   .copyright {
     grid-row: 3;
     grid-column: span 2;
