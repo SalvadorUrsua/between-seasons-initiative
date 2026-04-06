@@ -60,7 +60,7 @@
 }
 
 .sticky .header-company-name {
-  color: #000;
+  color: black;
 }
 
 .sticky .nav-link:link,
@@ -68,7 +68,7 @@
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #000;
+  color: black;
   border-bottom: 1px solid transparent;
 }
 
@@ -263,7 +263,7 @@ hr {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
   font-weight: 500;
-  color: #000;
+  color: black;
 }
 
 .contact-list {
