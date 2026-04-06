@@ -59,6 +59,25 @@
   border-bottom: 1px solid #f68b00;
 }
 
+.sticky .header-company-name {
+  color: #000;
+}
+
+.sticky .nav-link:link,
+.sticky .nav-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000;
+  border-bottom: 1px solid transparent;
+}
+
+.sticky .nav-link:hover,
+.sticky .nav-link:active {
+  color: #f68b00;
+  border-bottom: 1px solid #f68b00;
+}
+
 /* #endregion section-header */
 
 /* #region section-hero */
@@ -85,13 +104,6 @@
   /* temporary */
   /* height: 100rem; */
 }
-
-/* .purpose {
-  padding: 0 3.2rem;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-} */
 
 .purpose-text-box {
   position: relative;
@@ -162,11 +174,6 @@
   display: block;
   width: 100%;
 }
-
-/* .heading-secondary-description {
-  width: 100rem;
-  } */
-
 /* #endregion section-purpose */
 
 /* #region section-focus */
@@ -297,13 +304,3 @@ hr {
 }
 
 /* #endregion section-footer */
-
-/* 
-
-font-size (px)
-10 / 11 / 12 / 13 / 14 / 15 / 16 / 20 / 24 / 32 / 36 / 40 / 48 / 64 / 74 / 86 / 96 / 128
-
-spacing (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
-
-*/
