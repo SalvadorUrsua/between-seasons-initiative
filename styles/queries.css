@@ -281,6 +281,36 @@
     justify-content: end;
   }
 
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .footer-logo-box {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .follow-journey {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .contact-us {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .contact-icons {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .copyright {
+    grid-row: 3;
+    grid-column: span 2;
+  }
+
   .footer-logo-box {
     gap: 1rem;
     justify-content: start;
@@ -307,6 +337,10 @@
     font-size: 1.2rem;
     line-height: 100%;
     letter-spacing: 10%;
+  }
+
+  .focus-text-box p:nth-child(8) {
+    margin-bottom: 1.6rem !important;
   }
 }
 /* #endregion < 960px  */
