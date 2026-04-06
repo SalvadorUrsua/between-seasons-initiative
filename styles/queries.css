@@ -206,6 +206,15 @@
   /* header */
 
   /* hero */
+  .heading-primary-description {
+    color: transparent;
+    height: 0;
+  }
+
+  .heading-primary-description::before {
+    content: "A small journey exploring how faith, simple living, and care for the land can bring hope and renewal to communities.";
+    color: #fff;
+  }
 
   /* purpose */
   .section-purpose {

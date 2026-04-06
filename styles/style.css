@@ -116,7 +116,7 @@
 }
 
 .purpose-floating p {
-  font-family: "Lato", sans-serif;
+  font-family: "Rubix", sans-serif;
   font-size: 2.4rem;
   font-weight: none;
   line-height: 125%;
@@ -271,7 +271,7 @@ hr {
 }
 
 .contact-list li {
-  font-family: "Lato", sans-serif;
+  font-family: "Rubix", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
 }
@@ -281,7 +281,7 @@ hr {
 }
 
 .column-label {
-  font-family: "Lato", sans-serif;
+  font-family: "Rubix", sans-serif;
   font-size: 2rem;
   font-weight: 600;
 
@@ -289,7 +289,7 @@ hr {
 }
 
 .journey-text {
-  font-family: "Lato", sans-serif;
+  font-family: "Rubix", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   /* line-height: 180%; */
@@ -297,7 +297,7 @@ hr {
 
 .copyright {
   grid-column: span 2;
-  font-family: "Lato", sans-serif;
+  font-family: "Rubix", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 180%;
