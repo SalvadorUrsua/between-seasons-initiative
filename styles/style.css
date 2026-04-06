@@ -203,7 +203,7 @@
 
 /* #region section-origin */
 .section-origin {
-  margin-bottom: 12.5rem;
+  margin-bottom: 8rem;
 }
 
 .origin {
@@ -244,7 +244,7 @@ hr {
   grid-template-rows: 2fr 1fr;
   gap: 4.8rem;
 
-  margin: 12.5rem auto;
+  margin: 8rem auto;
   /* padding: 0 3.2rem; */
 }
 
@@ -292,7 +292,7 @@ hr {
   font-family: "Lato", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-  line-height: 180%;
+  /* line-height: 180%; */
 }
 
 .copyright {

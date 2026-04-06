@@ -7,6 +7,31 @@
   /* purpose */
 
   /* focus */
+  .focus {
+    column-gap: 3.2rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .focus-img-box {
+    align-self: center;
+  }
+
+  .focus-img {
+    margin: 0;
+  }
+
+  .focus-text-box {
+    align-self: center;
+  }
+
+  .focus-text-box p:nth-child(8) {
+    margin: 0 !important;
+  }
+
+  .focus .subtitle {
+    margin: 0;
+  }
 
   /* origin */
 
@@ -87,6 +112,11 @@
     font-size: 2rem !important;
   }
 
+  /* focus */
+
+  /* origin */
+
+  /* footer */
   .column-label {
     margin-bottom: 2.4rem;
   }
@@ -111,16 +141,10 @@
   .footer {
     row-gap: 2.4rem;
   }
-
-  /* focus */
-
-  /* origin */
-
-  /* footer */
 }
-/* #endregion < 1364px  */
+/* #endregion < 1164px  */
 
-/* #region < 960px = 960 / 16 = 85.25 = 60em */
+/* #region < 960px = 960 / 16 = 60em */
 @media (max-width: 60em) {
   /* header */
 
@@ -167,6 +191,7 @@
 
   .journey-text {
     color: transparent;
+    height: 0;
   }
 
   .journey-text::before {
@@ -174,4 +199,59 @@
     color: #000;
   }
 }
-/* #endregion < 1364px  */
+/* #endregion < 960px  */
+
+/* #region < 760px = 760 / 16 = 48em */
+@media (max-width: 48em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+  .section-purpose {
+    margin-bottom: 4.8rem;
+  }
+
+  /* focus */
+  .section-focus {
+    margin-bottom: 4.8rem;
+  }
+  /* origin */
+  .section-origin {
+    margin-bottom: 4.8rem;
+  }
+
+  /* footer */
+  .section-footer {
+    justify-content: end;
+  }
+
+  .footer-logo-box {
+    gap: 1rem;
+    justify-content: start;
+  }
+
+  .footer-logo {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .company-name {
+    font-size: 2rem;
+  }
+
+  .column-label {
+    font-size: 1.4rem;
+  }
+
+  .journey-text::before {
+    font-size: 1.2rem;
+  }
+
+  .contact-list li {
+    font-size: 1.2rem;
+    line-height: 100%;
+    letter-spacing: 10%;
+  }
+}
+/* #endregion < 960px  */
