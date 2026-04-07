@@ -127,13 +127,7 @@
   margin-bottom: 3.8rem;
 }
 
-.purpose-copy {
-  height: 0;
-  width: 0;
-  color: transparent;
-}
-
-.purpose-copy.subtitle {
+.purpose-copy * {
   height: 0;
   width: 0;
   color: transparent;

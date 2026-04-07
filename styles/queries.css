@@ -119,11 +119,6 @@
   /* hero */
 
   /* purpose */
-  .purpose-floating .subtitle {
-    color: transparent;
-    height: 0;
-    width: 0;
-  }
 
   /* focus */
   .focus {
@@ -202,7 +197,7 @@
   .purpose-floating {
     height: 0;
     width: 0;
-    color: transparent;
+    color: transparent !important;
   }
 
   .purpose-img-box::after {
@@ -211,15 +206,28 @@
     color: transparent;
   }
 
-  .purpose-copy {
+  .purpose-copy * {
     width: 100%;
     height: 100%;
     color: #000;
   }
 
+  .purpose-copy .subtitle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: -1%;
+    color: #f68b00;
+    margin: 0;
+  }
+
   .purpose-copy p:last-child {
     margin: 0;
   }
+
+  .subtitle.subtitle-purpose {
+    color: transparent;
+  }
+
   /* focus */
   .focus.grid-cols-2 {
     padding: 0 3.2rem;
