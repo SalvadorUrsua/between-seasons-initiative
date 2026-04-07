@@ -104,6 +104,9 @@
 .purpose {
   align-items: center;
 }
+.purpose .subtitle {
+  margin: 0;
+}
 
 .purpose-text-box {
   position: relative;
