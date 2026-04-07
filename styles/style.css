@@ -95,10 +95,15 @@
 /* #endregion section-hero */
 
 /* #region section-purpose */
+#section-purpose {
+  scroll-margin-top: 2rem;
+}
+
 .section-purpose {
   margin-bottom: 6.2rem;
   padding-top: 6rem;
   padding-bottom: 6rem;
+  scroll-margin-top: "79px";
 }
 
 .purpose {
@@ -196,6 +201,10 @@
 /* #endregion section-purpose */
 
 /* #region section-focus */
+#section-focus {
+  scroll-margin-top: 7rem;
+}
+
 .section-focus {
   background-color: #fef7f0;
 
@@ -223,6 +232,10 @@
 /* #endregion section-focus */
 
 /* #region section-origin */
+#section-origin {
+  scroll-margin-top: 2rem;
+}
+
 .section-origin {
   margin-bottom: 6.2rem;
   padding-top: 6rem;
