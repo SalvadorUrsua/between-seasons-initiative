@@ -33,6 +33,15 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 4.8rem;
+
+  margin: auto auto;
+}
+
 .grid-cols-6 {
   padding: 0 3.2rem;
 
@@ -115,9 +124,7 @@ body {
   font-size: 2rem !important;
   letter-spacing: -1% !important;
   color: #f68b00;
-
-  margin-top: 25%;
-  margin-bottom: 0 !important;
+  margin: 0 !important;
 }
 
 .sticky .section-header {
