@@ -18,6 +18,7 @@
 
   margin: 0 auto;
   padding: 0 3.2rem;
+  position: relative;
 }
 
 .logo-box {
@@ -57,6 +58,23 @@
 .nav-link:active {
   color: #f68b00;
   border-bottom: 1px solid #f68b00;
+}
+
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  background-color: #fdf2e9;
+  font-size: 3.2rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 .sticky .header-company-name {
@@ -135,10 +153,11 @@
   margin-bottom: 3.8rem;
 }
 
-.purpose-copy * {
-  height: 0;
-  width: 0;
-  color: transparent;
+.purpose-copy {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .purpose-img-box {
