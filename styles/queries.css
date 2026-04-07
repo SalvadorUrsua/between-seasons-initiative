@@ -282,7 +282,7 @@
     grid-template-columns: 1fr;
 
     column-gap: 0;
-    row-gap: 3rem;
+    row-gap: 4rem;
 
     margin: auto auto;
     /* padding: 0 3.2rem; */
@@ -304,9 +304,17 @@
     grid-column: 1;
     grid-row: 2;
   }
-  .follow-journey {
-    grid-column: 1;
-    grid-row: 2;
+
+  .contact-us * {
+    font-size: 1.4rem;
+  }
+
+  .follow-journey * {
+    font-size: 1.4rem;
+  }
+
+  .copyright {
+    font-size: 1.4rem;
   }
 }
 /* #endregion < 560px = 560 / 16 = 35em */
