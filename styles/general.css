@@ -1,0 +1,142 @@
+/* #region initialize */
+html {
+  font-size: 62.5%;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 12%;
+}
+/* #endregion initialize */
+
+/* #region helper-classes */
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.grid-cols-2 {
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 4.8rem;
+
+  margin: auto auto;
+}
+
+.grid-cols-6 {
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-cols-8 {
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+/* #endregion helper-classes */
+
+/* #region headings */
+.heading-primary {
+  font-family: "Montserrat", sans-serif;
+  font-size: 9.6rem;
+  font-weight: 700;
+  line-height: 87%;
+  letter-spacing: -2%;
+  color: #fff;
+  text-shadow: 0 4px 9.2px rgba(0, 0, 0, 0.35);
+
+  margin-bottom: 2.8rem;
+}
+
+.subheading {
+  font-size: 3.2rem;
+  letter-spacing: 1%;
+  color: #fff;
+  text-shadow: 0 4px 9.2px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 4.8rem;
+}
+
+.heading-primary-description {
+  font-size: 2.4rem;
+  line-height: 125%;
+  letter-spacing: 12%;
+  color: #fff;
+  text-shadow: 0 4px 9.2px rgba(0, 0, 0, 0.2);
+}
+
+.heading-secondary {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1%;
+  /* margin-top: 25%; */
+  margin-top: 0;
+  margin-bottom: 6rem;
+}
+
+.heading-secondary-description {
+  font-size: 2.4rem;
+  line-height: 125%;
+  letter-spacing: 12%;
+
+  margin-bottom: 3rem;
+}
+
+.heading-secondary-description:last-child {
+  margin-bottom: 25%;
+}
+
+.heading-tertiary {
+  font-size: 3.2rem;
+  font-weight: 600;
+  letter-spacing: 1%;
+
+  margin-bottom: 1.8rem;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: -1%;
+  color: #f68b00;
+  margin: 0 !important;
+}
+
+.sticky .section-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7.9rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgb(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+/* #endregion headings */
