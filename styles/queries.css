@@ -1,0 +1,397 @@
+/* #region < 1350px = 1350 / 16 = 84.38 = 84em */
+@media (max-width: 84em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+
+  /* focus */
+  .focus {
+    column-gap: 3.2rem;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .focus-img-box {
+    align-self: center;
+  }
+
+  .focus-img {
+    margin: 0;
+  }
+
+  .focus-text-box {
+    align-self: center;
+  }
+
+  .focus-text-box p:nth-child(8) {
+    margin: 0 !important;
+  }
+
+  .focus .subtitle {
+    margin: 0;
+  }
+
+  /* origin */
+
+  /* footer */
+
+  .section-footer {
+    /* max-width: 130rem;
+    margin: 0 auto;
+   */
+    padding: 12.2rem 3.2rem 6.2rem 3.2rem;
+  }
+
+  /* .section-footer {
+  } */
+
+  .column-label {
+    font-size: 1.8rem;
+  }
+
+  .journey-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  .contact-list li {
+    font-size: 1.6rem;
+  }
+}
+/* #endregion < 1350px  */
+
+/* #region < 1150px = 1150 / 16 = 71.87 = 72em */
+@media (max-width: 72em) {
+  /* header */
+  .header-company-name {
+    font-size: 1.6rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+
+  .heading-primary {
+    font-size: 7.4rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+
+  .heading-primary-description {
+    font-size: 1.6rem;
+  }
+  /* hero */
+
+  /* purpose */
+  .purpose .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+
+    margin-bottom: 4.8rem;
+  }
+
+  .heading-secondary-description {
+    font-size: 1.6rem !important;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem !important;
+  }
+
+  /* focus */
+
+  /* origin */
+
+  /* footer */
+}
+/* #endregion < 1164px  */
+
+/* #region < 960px = 960 / 16 = 60em */
+@media (max-width: 60em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+
+  /* focus */
+  .focus {
+    column-gap: 3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .focus-img-box {
+    align-self: center;
+  }
+
+  .focus-img {
+    margin: 0;
+  }
+
+  .focus-text-box {
+    align-self: center;
+  }
+
+  .focus-text-box p:nth-child(8) {
+    margin: 0 !important;
+  }
+
+  .focus .subtitle {
+    margin: 0;
+  }
+
+  /* origin */
+  .origin {
+    column-gap: 4.8rem;
+  }
+
+  /* footer */
+}
+/* #endregion < 960px  */
+
+/* #region < 760px = 760 / 16 = 48em */
+@media (max-width: 48em) {
+  /* header */
+  .main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.96);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all 0.5s ease-out;
+    font-size: 0;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  .nav-link {
+    font-size: 2.4rem !important;
+  }
+
+  .mobile-main-nav .nav-link:link,
+  .mobile-main-nav .nav-link:visited {
+    font-size: 2.4rem !important;
+    color: #000;
+  }
+
+  .mobile-main-nav .main-nav {
+    opacity: 1 !important;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .mobile-main-nav .nav-link:link,
+  .mobile-main-nav .nav-link:visited {
+    font-size: 2.4rem !important;
+    color: #000;
+  }
+
+  .mobile-main-nav .nav-link:hover,
+  .mobile-main-nav .nav-link:active {
+    color: #f68b00;
+    border-bottom: 1px solid #f68b00;
+  }
+
+  .mobile-main-nav .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .mobile-main-nav .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .mobile-main-nav .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  /* hero */
+  .heading-primary-description {
+    color: transparent;
+    height: 0;
+  }
+
+  .heading-primary-description::before {
+    content: "A small journey exploring how faith, simple living, and care for the land can bring hope and renewal to communities.";
+    color: #fff;
+  }
+
+  /* purpose */
+
+  /* focus */
+
+  /* footer */
+}
+/* #endregion < 960px  */
+
+/* #region < 560px = 560 / 16 = 35em */
+@media (max-width: 35em) {
+  /* header */
+
+  /* hero */
+
+  /* purpose */
+  .purpose.grid-cols-2 {
+    padding: 0 3.2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .purpose-floating {
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .purpose-img-box::after {
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .purpose-copy {
+    display: block;
+  }
+
+  .purpose-copy p:last-child {
+    margin: 0;
+  }
+
+  .subtitle.subtitle-purpose {
+    color: transparent;
+  }
+
+  /* focus */
+  .focus.grid-cols-2 {
+    padding: 0 3.2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .focus-img {
+    grid-row: 2;
+  }
+
+  .focus-text-box {
+    grid-row: 1;
+  }
+
+  .focus-text-box p:last-child {
+    margin: 0 0 3rem;
+  }
+
+  /* origin */
+  .origin.grid-cols-8 {
+    padding: 0 3.2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .origin-text-box {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .origin-img-box {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  /* footer */
+  .section-footer {
+    max-width: 130rem;
+    margin: 0 auto;
+
+    padding-top: 12.2rem;
+    padding-bottom: 6.2rem;
+  }
+
+  .footer.grid-cols-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    column-gap: 0;
+    row-gap: 4rem;
+
+    margin: auto auto;
+  }
+
+  .footer-logo {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .follow-journey {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .contact-us {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .contact-icons {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .follow-journey {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .contact-us * {
+    font-size: 1.4rem !important;
+  }
+
+  .follow-journey * {
+    font-size: 1.4rem !important;
+  }
+
+  .contact-icon {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .copyright {
+    font-size: 1.4rem;
+  }
+}
+/* #endregion < 560px = 560 / 16 = 35em */
