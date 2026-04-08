@@ -30,16 +30,45 @@ const observer = new IntersectionObserver(
 
 observer.observe(landingPage);
 
+// if(header.classList.contains("section-header mobile-main-nav"))  {
+//   const curHref = link.getAttribute(href);
+//   if(curHref === "#section-purpose") {
+//     link.setAttribute("href") = "#subtitle-purpose";
+//   }
+//   if(curHref === "#section-focus") {
+//     link.setAttribute("href") = "#subtitle-focus";
+//   }
+//   if(curHref === "#section-origin") {
+//     link.setAttribute("href") = "#subtitle-origin";
+//   }
+//   alert("dito");
+// }
+
 const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
-    const href = link.getAttribute("href");
+    var href = link.getAttribute("href");
     if (href === "#") {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
       });
+    }
+
+    const btnMobileNav = document.querySelector(".btn-mobile-nav");
+    if (window.getComputedStyle(btnMobileNav).display === "block") {
+      if (href === "#section-purpose") {
+        href = "#subtitle-purpose";
+      }
+
+      if (href === "#section-focus") {
+        href = "#subtitle-focus";
+      }
+
+      if (href === "#section-origin") {
+        href = "#subtitle-origin";
+      }
     }
 
     if (href !== "#" && href.startsWith("#")) {
@@ -52,11 +81,6 @@ allLinks.forEach((link) => {
       }
     }
 
-    link.classList.add("nav-link-reset");
-
-    // reset after 1 second
-    // setTimeout(() => {
-    //   link.classList.remove("nav-link-reset");
-    // }, 1000);
+    link.classList.toggle("nav-link-reset");
   });
 });
