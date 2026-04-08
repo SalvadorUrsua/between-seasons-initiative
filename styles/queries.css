@@ -217,6 +217,13 @@
     display: block;
   }
 
+  .mobile-main-nav .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
   /* hero */
   .heading-primary-description {
     color: transparent;
@@ -226,13 +233,6 @@
   .heading-primary-description::before {
     content: "A small journey exploring how faith, simple living, and care for the land can bring hope and renewal to communities.";
     color: #fff;
-  }
-
-  .mobile-main-nav .main-nav {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-    transform: translateX(0);
   }
 
   /* purpose */
@@ -341,7 +341,11 @@
     row-gap: 4rem;
 
     margin: auto auto;
-    /* padding: 0 3.2rem; */
+  }
+
+  .footer-logo {
+    width: 8rem;
+    height: 8rem;
   }
 
   .follow-journey {
@@ -362,11 +366,16 @@
   }
 
   .contact-us * {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
 
   .follow-journey * {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
+  }
+
+  .contact-icon {
+    width: 6rem;
+    height: 6rem;
   }
 
   .copyright {
