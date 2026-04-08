@@ -209,6 +209,14 @@
     border-bottom: 1px solid #f68b00;
   }
 
+  .mobile-main-nav .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .mobile-main-nav .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
   /* hero */
   .heading-primary-description {
     color: transparent;
