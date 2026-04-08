@@ -60,6 +60,11 @@
   border-bottom: 1px solid #f68b00;
 }
 
+.nav-link-reset {
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
 .btn-mobile-nav {
   display: none;
   border: none;

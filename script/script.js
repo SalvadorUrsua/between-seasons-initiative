@@ -51,5 +51,12 @@ allLinks.forEach((link) => {
         header.classList.toggle("mobile-main-nav");
       }
     }
+
+    link.classList.add("nav-link-reset");
+
+    // reset after 1 second
+    // setTimeout(() => {
+    //   link.classList.remove("nav-link-reset");
+    // }, 1000);
   });
 });
