@@ -2,12 +2,10 @@ const yearEl = document.querySelector(".year");
 yearEl.textContent = new Date().getFullYear();
 
 const headerCompanyName = document.querySelector(".header-company-name");
-
 const landingPage = document.querySelector(".landing-page");
-
 const header = document.querySelector(".section-header");
-
 const mobileButton = document.querySelector(".btn-mobile-nav");
+
 mobileButton.addEventListener("click", () => {
   header.classList.toggle("mobile-main-nav");
 });
@@ -29,20 +27,6 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(landingPage);
-
-// if(header.classList.contains("section-header mobile-main-nav"))  {
-//   const curHref = link.getAttribute(href);
-//   if(curHref === "#section-purpose") {
-//     link.setAttribute("href") = "#subtitle-purpose";
-//   }
-//   if(curHref === "#section-focus") {
-//     link.setAttribute("href") = "#subtitle-focus";
-//   }
-//   if(curHref === "#section-origin") {
-//     link.setAttribute("href") = "#subtitle-origin";
-//   }
-//   alert("dito");
-// }
 
 const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach((link) => {

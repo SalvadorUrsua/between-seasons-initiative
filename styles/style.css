@@ -168,8 +168,6 @@
 
 .purpose-img-box {
   position: relative;
-  /* display: flex;
-  align-items: center; */
 }
 
 .purpose-img-box::after {
