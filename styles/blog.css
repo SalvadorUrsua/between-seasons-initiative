@@ -100,21 +100,21 @@ header {
   display: none;
 }
 
-.sticky .header-company-name {
-  color: black;
+.blog-sticky .header-text {
+  color: #333;
 }
 
-.sticky .nav-link:link,
-.sticky .nav-link:visited {
+.blog-sticky .nav-link:link,
+.blog-sticky .nav-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
   color: black;
   border-bottom: 1px solid transparent;
 }
 
-.sticky .nav-link:hover,
-.sticky .nav-link:active {
+.blog-sticky .nav-link:hover,
+.blog-sticky .nav-link:active {
   color: #f68b00;
   border-bottom: 1px solid #f68b00;
 }
