@@ -26,13 +26,13 @@ body {
   position: relative;
 }
 
-.featured .section-header {
+/* .featured .section-header {
   background-color: rgba(173, 149, 132, 0.308);
   position: absolute;
   width: 100vw;
   left: 0;
   top: 0;
-}
+} */
 
 /* #region header */
 header {
