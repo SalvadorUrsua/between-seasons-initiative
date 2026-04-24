@@ -23,6 +23,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 5.7rem;
+  position: relative;
+}
+
+.featured .section-header {
+  background-color: rgba(173, 149, 132, 0.308);
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  top: 0;
 }
 
 /* #region header */
@@ -45,7 +54,7 @@ header {
 .logo-box .bsi-logo {
   width: 4.8rem;
   height: 4.8rem;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.897);
   border-radius: 50px;
 }
 
