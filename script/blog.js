@@ -42,9 +42,11 @@ btnViews.forEach((btnView) => {
 const header = document.querySelector(".section-header");
 const mobileButton = document.querySelector(".blog-btn-mobile-nav");
 const featured = document.querySelector(".featured");
+const navLinks = document.querySelector(".blog-nav-links");
 
 mobileButton.addEventListener("click", () => {
   header.classList.toggle("mobile-main-nav");
+  navLinks.classList.toggle("no-shadow");
 });
 
 const observer = new IntersectionObserver(
@@ -59,7 +61,7 @@ const observer = new IntersectionObserver(
   {
     root: null,
     threshold: 0,
-    rootMargin: "-80px",
+    rootMargin: "-90px",
   },
 );
 
@@ -77,34 +79,29 @@ allLinks.forEach((link) => {
       });
     }
 
+    // const btnMobileNav = document.querySelector(".blog-btn-mobile-nav");
+    // if (window.getComputedStyle(btnMobileNav).display === "block") {
+    //   if (href === "#section-purpose") {
+    //     href = "#subtitle-purpose";
+    //     link.setAttribute("href", href);
+    //   }
+    //   if (href === "#section-focus") {
+    //     href = "#subtitle-focus";
+    //     link.setAttribute("href", href);
+    //   }
+    //   if (href === "#section-origin") {
+    //     href = "#subtitle-origin";
+    //     link.setAttribute("href", href);
+    //   }
+    // }
+
     header.classList.remove("mobile-main-nav");
-
-    const btnMobileNav = document.querySelector(".blog-btn-mobile-nav");
-    if (window.getComputedStyle(btnMobileNav).display === "block") {
-      if (href === "#section-purpose") {
-        href = "#subtitle-purpose";
-        link.setAttribute("href", href);
-      }
-      if (href === "#section-focus") {
-        href = "#subtitle-focus";
-        link.setAttribute("href", href);
-      }
-      if (href === "#section-origin") {
-        href = "#subtitle-origin";
-        link.setAttribute("href", href);
-      }
-    }
-
     if (href !== "#" && href.startsWith("#")) {
       const sectionID = href;
       const sectionElement = document.querySelector(sectionID);
       sectionElement.scrollIntoView({ behavior: "smooth" });
     }
-
-    // header.classList.remove(".blog-btn-mobile-nav");
-    // link.classList.toggle("nav-link-reset");
   });
 
-  header.classList.remove("mobile-main-nav");
   link.classList.toggle("nav-link-reset");
 });

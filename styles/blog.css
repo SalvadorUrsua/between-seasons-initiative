@@ -65,7 +65,7 @@ header {
   display: flex;
   gap: 2.4rem;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-link:link,
@@ -88,7 +88,6 @@ header {
   border: none;
   background: none;
   cursor: pointer;
-  /* pointer-events: none; */
 }
 
 .blog-icon-mobile-nav {
@@ -125,12 +124,17 @@ header {
   color: #fff;
 }
 
+.no-shadow {
+  text-shadow: none;
+}
+
 .featured {
   display: flex;
   flex-direction: column;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
 .text-box {
   margin-top: auto;
   margin-bottom: 5.2rem;
@@ -179,8 +183,10 @@ header {
 
 .section-blog-articles .subtitle {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   text-align: center;
+  letter-spacing: 20%;
   width: 100%;
   margin-bottom: 2.4rem !important;
 }
