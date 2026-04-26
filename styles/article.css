@@ -177,6 +177,18 @@ ion-icon {
   margin-bottom: 7em;
 }
 
+.google-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3.2rem;
+  width: 100%;
+}
+
+.google-form iframe {
+  width: 100%;
+}
+
 /* 
 
 font-size (px)
