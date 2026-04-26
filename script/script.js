@@ -66,3 +66,27 @@ allLinks.forEach((link) => {
     link.classList.toggle("nav-link-reset");
   });
 });
+
+const form = document.getElementById("contact-form");
+const googleScriptURL =
+  "https://script.google.com/macros/s/AKfycby4VR17dEtyGesdWWdO6HZShm8Ye_giN3N0jrB35feDBlYtwnUmkpoNBpSMqrQqBuiX/exec";
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const formData = {
+    fullname: form.name.value,
+    email: form.email.value,
+    phone: form.phone.value,
+    country: form.country.value,
+    message: form.message.value,
+  };
+
+  await fetch(googleScriptURL, {
+    method: "POST",
+    body: JSON.stringify(formData),
+  });
+
+  alert("Submitted!");
+  form.reset();
+});
