@@ -90,3 +90,17 @@ form.addEventListener("submit", async (e) => {
   alert("Submitted!");
   form.reset();
 });
+
+// import countries from "https://cdn.jsdelivr.net/npm/world-countries@4.0.0/countries.json";
+
+// const select = document.getElementById("country");
+
+// countries
+//   .map((c) => c.name.common)
+//   .sort()
+//   .forEach((name) => {
+//     const option = document.createElement("option");
+//     option.value = name;
+//     option.textContent = name;
+//     select.appendChild(option);
+//   });
